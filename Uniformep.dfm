@@ -83,6 +83,7 @@ object Form1: TForm1
       Align = alBottom
       Caption = 'Exibir'
       TabOrder = 4
+      OnClick = btnExiClick
     end
   end
   object lv1: TListView
@@ -102,6 +103,5 @@ object Form1: TForm1
       end>
     TabOrder = 1
     ViewStyle = vsReport
-    ExplicitWidth = 350
   end
 end
